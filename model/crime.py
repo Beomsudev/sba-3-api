@@ -18,7 +18,7 @@ class CrimeModel:
         print(f'{crime_police.columns}')
 
 
-    def set_police_norm(self):
+    def get_crime(self):
         reader = self.reader
         reader.context = os.path.join(baseurl,'data')
         reader.fname = 'crime_in_seoul.csv'

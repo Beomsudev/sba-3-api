@@ -3,6 +3,8 @@ import sys
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from model.iris_model import IrisModel
 from model.adaline import AdalineGD
+from seoul_cctv_tea.police import Police
+
 
 if __name__ == '__main__':
     iris = IrisModel()
